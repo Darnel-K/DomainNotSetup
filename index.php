@@ -18,7 +18,7 @@
                 }
             ?>
             </h2>
-            <p><?phpvar_dump($_SERVER)?></p>
+            <p><?phpvar_dump($_SERVER);?></p>
         <hr>
         <p><?php echo $_SERVER['REQUEST_TIME']; ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
