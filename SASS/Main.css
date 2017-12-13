@@ -31,12 +31,14 @@ div h2 {
 
 div section p {
   font-size: small;
+  text-align: justify;
 }
 
 div #info {
   margin-bottom: 5px;
   border-top: 3px solid #666;
   padding-top: 5px;
+  text-align: center;
 }
 
 footer {
