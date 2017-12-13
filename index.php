@@ -14,7 +14,7 @@
 echo $_SERVER['SERVER_ADDR']; ?>
             </p>
         <hr>
-        <p>Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+        <p><?php echo $_SERVER['SERVER_SIGNATURE']; ?> | Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
 </body>
 </html>
