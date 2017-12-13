@@ -6,8 +6,8 @@
     <title>You Shouldn't Be Here!</title>
 </head>
 <body>
-    <h1>You Shouldn't Be Here!</h1>
     <div>
+        <h1>You Shouldn't Be Here!</h1>
         <hr>
             <?php 
                 if ($_SERVER['HTTP_HOST'] == gethostbyname($_SERVER['HTTP_HOST'])) {
