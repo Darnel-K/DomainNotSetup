@@ -62,55 +62,55 @@ a:hover {
 
 @-webkit-keyframes swing {
   15% {
-    -webkit-transform: translateX(5px);
-            transform: translateX(5px);
+    -webkit-transform: translateX(calc(-50% + 5px));
+            transform: translateX(calc(-50% + 5px));
   }
   30% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(calc(-50% - 5px));
+            transform: translateX(calc(-50% - 5px));
   }
   50% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(calc(-50% + 3px));
+            transform: translateX(calc(-50% + 3px));
   }
   65% {
-    -webkit-transform: translateX(-3px);
-            transform: translateX(-3px);
+    -webkit-transform: translateX(calc(-50% - 3px));
+            transform: translateX(calc(-50% - 3px));
   }
   80% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(calc(-50% + 2px));
+            transform: translateX(calc(-50% + 2px));
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 
 @keyframes swing {
   15% {
-    -webkit-transform: translateX(5px);
-            transform: translateX(5px);
+    -webkit-transform: translateX(calc(-50% + 5px));
+            transform: translateX(calc(-50% + 5px));
   }
   30% {
-    -webkit-transform: translateX(-5px);
-            transform: translateX(-5px);
+    -webkit-transform: translateX(calc(-50% - 5px));
+            transform: translateX(calc(-50% - 5px));
   }
   50% {
-    -webkit-transform: translateX(3px);
-            transform: translateX(3px);
+    -webkit-transform: translateX(calc(-50% + 3px));
+            transform: translateX(calc(-50% + 3px));
   }
   65% {
-    -webkit-transform: translateX(-3px);
-            transform: translateX(-3px);
+    -webkit-transform: translateX(calc(-50% - 3px));
+            transform: translateX(calc(-50% - 3px));
   }
   80% {
-    -webkit-transform: translateX(2px);
-            transform: translateX(2px);
+    -webkit-transform: translateX(calc(-50% + 2px));
+            transform: translateX(calc(-50% + 2px));
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 
