@@ -60,6 +60,16 @@ a:hover
     100%
         transform: translate(-50%, -50%);
 
+@keyframes flicker
+    50%
+        border-left-style: none;
+    100%
+        border-left-style: solid;
+
 .swing
     animation: swing 1s ease;
+    animation-iteration-count: 1;
+
+.flicker
+    animation: flicker 1s linear;
     animation-iteration-count: 1;
