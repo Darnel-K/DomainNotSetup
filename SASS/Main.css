@@ -116,19 +116,19 @@ a:hover {
 
 @-webkit-keyframes flicker {
   50% {
-    border-style: none;
+    border-left-style: none;
   }
   100% {
-    border-style: solid;
+    border-left-style: solid;
   }
 }
 
 @keyframes flicker {
   50% {
-    border-style: none;
+    border-left-style: none;
   }
   100% {
-    border-style: solid;
+    border-left-style: solid;
   }
 }
 
