@@ -17,8 +17,7 @@
                     echo "<section><h3>Just in case you were wondering...</h3><p>You are seeing this error page because you tried to access a host that does not exist on this server.</p></section>";
                 }
             ?>
-        <hr>
-        <p><?php echo date("d/m/Y h:i:s A T"); ?> &bull; <?php echo date("e"); ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+        <p id="info"><?php echo date("d/m/Y h:i:s A T"); ?> &bull; <?php echo date("e"); ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
     <footer><?php echo $_SERVER['SERVER_SIGNATURE']; ?></footer>
 </body>

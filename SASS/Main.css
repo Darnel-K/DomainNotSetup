@@ -33,7 +33,7 @@ div section p {
   font-size: small;
 }
 
-div p:last-child {
+#info {
   margin-bottom: 5px;
   border-top: 3px solid #666;
   padding-top: 5px;
