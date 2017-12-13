@@ -72,6 +72,7 @@ a:hover {
   50% {
     -webkit-transform: translate(calc(-50% + 3px), -50%);
             transform: translate(calc(-50% + 3px), -50%);
+    border-left-style: none;
   }
   65% {
     -webkit-transform: translate(calc(-50% - 3px), -50%);
@@ -84,6 +85,7 @@ a:hover {
   100% {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+    border-left-style: solid;
   }
 }
 
@@ -99,6 +101,7 @@ a:hover {
   50% {
     -webkit-transform: translate(calc(-50% + 3px), -50%);
             transform: translate(calc(-50% + 3px), -50%);
+    border-left-style: none;
   }
   65% {
     -webkit-transform: translate(calc(-50% - 3px), -50%);
@@ -111,6 +114,7 @@ a:hover {
   100% {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+    border-left-style: solid;
   }
 }
 
