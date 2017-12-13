@@ -19,7 +19,7 @@
             ?>
             </h2>
         <hr>
-        <p>Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+        <p><?php echo $_SERVER['REQUEST_TIME']; ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
     <footer><?php echo $_SERVER['SERVER_SIGNATURE']; ?></footer>
 </body>
