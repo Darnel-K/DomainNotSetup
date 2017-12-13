@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="SASS/Main.min.css">
+    <link rel="stylesheet" href="SASS/Dark.min.css">
     <title>You Shouldn't Be Here!</title>
 </head>
 <body>
