@@ -6,6 +6,16 @@ body {
   color: #FFF;
   background-color: #1F1F1F;
 }
+
+div h2 {
+  font-weight: normal;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
  
 
  /*# sourceMappingURL= Main.css.map */
