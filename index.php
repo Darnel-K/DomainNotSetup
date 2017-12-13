@@ -10,8 +10,13 @@
     <div>
         <hr>
             <p id="Error">
-            <?php echo $_SERVER['HTTP_HOST'];
-echo gethostbyname($_SERVER['HTTP_HOST']); ?>
+            <?php 
+                if ($_SERVER['HTTP_HOST'] == gethostbyname($_SERVER['HTTP_HOST'])) {
+                    echo "Direct IP access is forbidden";
+                } else {
+                    echo "Host '" . $_SERVER['HTTP_HOST'] . "' does not exist on this server";
+                }
+            ?>
             </p>
         <hr>
         <p>Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
