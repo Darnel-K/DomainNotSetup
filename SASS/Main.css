@@ -126,36 +126,11 @@ a:hover {
   }
 }
 
-@-webkit-keyframes flicker {
-  50% {
-    border-left-style: none;
-  }
-  100% {
-    border-left-style: solid;
-  }
-}
-
-@keyframes flicker {
-  50% {
-    border-left-style: none;
-  }
-  100% {
-    border-left-style: solid;
-  }
-}
-
 .swing {
   -webkit-animation: swing 1s ease;
           animation: swing 1s ease;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-}
-
-.flicker {
-  -webkit-animation: flicker 0.3s linear;
-          animation: flicker 0.3s linear;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
 }
  
 
