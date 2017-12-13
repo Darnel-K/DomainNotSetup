@@ -6,7 +6,7 @@
     <title>You Shouldn't Be Here!</title>
 </head>
 <body>
-    <div>
+    <div class="swing">
         <h1>You Shouldn't Be Here!</h1>
             <?php 
                 if ($_SERVER['HTTP_HOST'] == gethostbyname($_SERVER['HTTP_HOST'])) {
