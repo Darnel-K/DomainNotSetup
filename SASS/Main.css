@@ -3,8 +3,8 @@
 }
 
 body {
-  color: #FFF;
-  background-color: #1F1F1F;
+  color: #333;
+  background-color: #CCC;
 }
 
 div {
@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-  color: #FFF;
+  color: #333;
 }
 
 @-webkit-keyframes swing {
