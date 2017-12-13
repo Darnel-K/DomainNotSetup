@@ -19,6 +19,12 @@ div {
   padding-left: 20px;
 }
 
+div h1 {
+  border-bottom: 3px solid #666;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
 div h2 {
   font-weight: normal;
 }
