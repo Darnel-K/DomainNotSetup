@@ -79,17 +79,17 @@ a:hover {
   65% {
     -webkit-transform: translate(calc(-50% - 3px), -50%);
             transform: translate(calc(-50% - 3px), -50%);
-    border-left-style: none;
+    border-left-style: solid;
   }
   80% {
     -webkit-transform: translate(calc(-50% + 2px), -50%);
             transform: translate(calc(-50% + 2px), -50%);
-    border-left-style: solid;
+    border-left-style: none;
   }
   100% {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    border-left-style: none;
+    border-left-style: solid;
   }
 }
 
@@ -112,17 +112,17 @@ a:hover {
   65% {
     -webkit-transform: translate(calc(-50% - 3px), -50%);
             transform: translate(calc(-50% - 3px), -50%);
-    border-left-style: none;
+    border-left-style: solid;
   }
   80% {
     -webkit-transform: translate(calc(-50% + 2px), -50%);
             transform: translate(calc(-50% + 2px), -50%);
-    border-left-style: solid;
+    border-left-style: none;
   }
   100% {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    border-left-style: none;
+    border-left-style: solid;
   }
 }
 
