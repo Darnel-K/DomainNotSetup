@@ -9,7 +9,10 @@
     <h1>You Shouldn't Be Here!</h1>
     <div>
         <hr>
-
+            <p id="Error">
+            <?php echo $_SERVER['HTTP_HOST'];
+echo $_SERVER['SERVER_ADDR']; ?>
+            </p>
         <hr>
         <p>Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
