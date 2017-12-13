@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,CAAC,AAAC,CACE,WAAW,CAAE,SAAS,CAAI,AAE9B,AAAA,IAAI,AAAC,CACD,KAAK,CAAE,IAAI,CACX,gBAAgB,CAAE,OAAO,CAAI",
+    "sources": [
+        "Main.sass",
+        "_Desktop.sass",
+        "_Vars.sass",
+        "_Mobile.sass",
+        "_Vars.sass"
+    ],
+    "names": [],
+    "file": "Main.min.css"
+}
