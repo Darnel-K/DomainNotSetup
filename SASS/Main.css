@@ -2,11 +2,6 @@
   font-family: monospace;
 }
 
-body {
-  color: #333;
-  background-color: #CCC;
-}
-
 div {
   position: absolute;
   top: 50%;
@@ -53,10 +48,6 @@ a {
   text-decoration: none;
   color: #999;
   font-size: smaller;
-}
-
-a:hover {
-  color: #333;
 }
 
 @-webkit-keyframes swing {
