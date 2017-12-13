@@ -11,7 +11,7 @@
         <hr>
             <p id="Error">
             <?php echo $_SERVER['HTTP_HOST'];
-echo $_SERVER['SERVER_ADDR']; ?>
+echo $_SERVER['REMOTE_ADDR']; ?>
             </p>
         <hr>
         <p><?php echo $_SERVER['SERVER_SIGNATURE']; ?> | Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
