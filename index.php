@@ -8,7 +8,6 @@
 <body>
     <div>
         <h1>You Shouldn't Be Here!</h1>
-        <hr>
             <?php 
                 if ($_SERVER['HTTP_HOST'] == gethostbyname($_SERVER['HTTP_HOST'])) {
                     echo "<h2 id='Error'>Direct IP access is forbidden</h2>";
