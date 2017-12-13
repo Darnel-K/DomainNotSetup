@@ -140,8 +140,8 @@ a:hover {
 }
 
 .flicker {
-  -webkit-animation: flicker 1s linear;
-          animation: flicker 1s linear;
+  -webkit-animation: flicker 0.5s linear;
+          animation: flicker 0.5s linear;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
