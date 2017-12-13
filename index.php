@@ -21,6 +21,6 @@
         <hr>
         <p><?php echo date("d/m/Y h:i:s A T"); ?> &bull; <?php echo date("e"); ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
-    <footer><?php echo $_SERVER['SERVER_SOFTWARE']; ?></footer>
+    <footer><?php echo $_SERVER['SERVER_SIGNATURE']; ?></footer>
 </body>
 </html>
