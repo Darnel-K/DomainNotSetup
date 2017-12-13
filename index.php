@@ -18,7 +18,7 @@
                 }
             ?>
             </h2>
-            <p><?php echo date("d/m/Y h:i:s A e");?></p>
+            <p><?php echo date("d/m/Y h:i:s A T");?></p>
         <hr>
         <p><?php echo $_SERVER['REQUEST_TIME']; ?> &bull; Your IP <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
     </div>
