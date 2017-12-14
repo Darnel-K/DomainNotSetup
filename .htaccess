@@ -1,4 +1,4 @@
 RewriteEngine On
 # RewriteCond %{REQUEST_URI} !^/$
-RewriteRule   /(.*)$  /sdf/test  [R]
-# RedirectMatch permanent %{HTTP_HOST}(.*)$ http://test1.kajida.uk
+# RewriteRule   /(.*)$  /sdf/test  [R]
+RedirectMatch permanent /(.*)$ /sdf/sdfsd
