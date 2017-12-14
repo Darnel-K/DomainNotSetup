@@ -1,1 +1,2 @@
+RewriteEngine On
 RedirectMatch permanent ^/.*/$ %{HTTP_HOST}
