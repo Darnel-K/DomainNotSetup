@@ -1,5 +1,5 @@
 RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_URI} [^\/].* [NC]
-RewriteCond %{REQUEST_URI} !\.(png|css)$ [NC]
+RewriteCond %{REQUEST_URI} !\.(sass|css|map)$ [NC]
 RewriteRule ^.+$ / [L,R=301]
