@@ -1,4 +1,6 @@
 RewriteEngine On
 # RewriteCond %{REQUEST_URI} !^/$
 # RewriteRule   /(.*)$  /  [R]
-RedirectMatch permanent %{HTTP_HOST}\/(.+)$ http://test1.kajida.uk
+# RedirectMatch permanent %{HTTP_HOST}\/(.+)$ http://test1.kajida.uk
+RewriteBase /
+RewriteRule ^/(.*)$ /$1 [R=301,NC,L]
