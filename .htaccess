@@ -1,0 +1,2 @@
+RewriteEngine On 
+RewriteRule ^dir/.*$ index.html [NC,L]
