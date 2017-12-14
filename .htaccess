@@ -1,3 +1,2 @@
 RewriteEngine On
-# RedirectMatch permanent %{HTTP_HOST}/(.*)$ http://test1.kajida.uk
-RewriteRule   /(.*)$  /  [R]
+RedirectMatch permanent /(.*)$ http://test1.kajida.uk
