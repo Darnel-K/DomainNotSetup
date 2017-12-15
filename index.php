@@ -18,9 +18,11 @@
         <h1>You Shouldn't Be Here!</h1>
             <?php 
                 if ($_SERVER['HTTP_HOST'] == gethostbyname($_SERVER['HTTP_HOST'])) {
+                    http_response_code(403);
                     echo "<h2 id='Error'>Direct IP access is forbidden</h2>";
                     echo "<section><h3>Just in case you were wondering...</h3><p>You are seeing this error message because you tried to access this web server directly using it's IP address.<br><br>If you think this is a server error, please contact the server admin using the link below.</p></section>";
                 } else {
+                    http_response_code(404);
                     echo "<h2 id='Error'>Host '" . $_SERVER['HTTP_HOST'] . "' does not exist on this server</h2>";
                     echo "<section><h3>Just in case you were wondering...</h3><p>You are seeing this error message because you tried to access a host that does not exist on this server.<br><br>If you think this is a server error, please contact the server admin using the link below.</p></section>";
                 }
