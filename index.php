@@ -23,7 +23,7 @@
                     echo "<section><h3>Just in case you were wondering...</h3><p>You are seeing this error message because you tried to access this web server directly using it's IP address.<br><br>If you think this is a server error, please contact the server admin using the link below.</p></section>";
                 } else {
                     http_response_code(404);
-                    echo "<h2 id='Error'>Host '" . $_SERVER['HTTP_HOST'] . "' does not exist on this server</h2>";
+                    echo "<h2 id='Error'>Host '" . $_SERVER['HTTP_HOST'] . "' is invalid</h2>";
                     echo "<section><h3>Just in case you were wondering...</h3><p>You are seeing this error message because you tried to access a host that does not exist on this server.<br><br>If you think this is a server error, please contact the server admin using the link below.</p></section>";
                 }
             ?>
