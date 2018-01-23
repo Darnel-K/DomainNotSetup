@@ -1,5 +1,6 @@
-# RewriteEngine On
-# RewriteBase /
-# RewriteCond %{REQUEST_URI} [^\/].* [NC]
-# RewriteCond %{REQUEST_URI} !\.(sass|css|map|well-known)$ [NC]
-# RewriteRule ^.+$ / [L,R=301]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} [^\/].* [NC]
+RewriteCond %{REQUEST_URI} !\.(sass|css|map)$ [NC]
+RewriteCond %{REMOTE_ADDR} !^66\.133\.109\.36
+RewriteRule ^.+$ / [L,R=301]
