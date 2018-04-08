@@ -1,12 +1,56 @@
 *
     font-family: monospace
 
-div
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
-    width: 90%
+body
+    display: grid
+    grid-template-rows: auto min-content
+    width: 100vw
+    margin: 0
+    height: 100vh
+
+#Container
+    display: grid
+    justify-content: center
+    align-content: center
+
+footer
+    margin: 5px
+    font-size: xx-small
+    display: grid
+    address
+        grid-column: 1
+    p
+        grid-column: 2
+        margin: 0
+        text-align: right
+a
+    text-decoration: none
+    color: #999
+    font-size: smaller
+
+@keyframes swing
+    15%
+        transform: translateX(calc(0% + 5px))
+        border-color: #666
+    30%
+        transform: translateX(calc(0% - 5px))
+        border-color: #F00
+    50%
+        transform: translateX(calc(0% + 3px))
+        border-color: #666
+    65%
+        transform: translateX(calc(0% - 3px))
+        border-color: #F00
+    80%
+        transform: translateX(calc(0% + 2px))
+        border-color: #666
+    100%
+        transform: translateX(0%)
+        border-color: #F00
+
+.swing
+    animation: swing 1s ease
+    animation-iteration-count: 1
     max-width: 760px
     border: 2px solid #666
     padding: 20px
@@ -26,38 +70,3 @@ div
         border-top: 3px solid #666
         padding-top: 5px
         text-align: center
-
-footer
-    position: absolute
-    bottom: 0
-    left: 0
-    margin: 5px
-    font-size: xx-small
-a
-    text-decoration: none
-    color: #999
-    font-size: smaller
-
-@keyframes swing
-    15%
-        transform: translate(calc(-50% + 5px), -50%)
-        border-color: #666
-    30%
-        transform: translate(calc(-50% - 5px), -50%)
-        border-color: #F00
-    50%
-        transform: translate(calc(-50% + 3px), -50%)
-        border-color: #666
-    65%
-        transform: translate(calc(-50% - 3px), -50%)
-        border-color: #F00
-    80%
-        transform: translate(calc(-50% + 2px), -50%)
-        border-color: #666
-    100%
-        transform: translate(-50%, -50%)
-        border-color: #F00
-
-.swing
-    animation: swing 1s ease
-    animation-iteration-count: 1
