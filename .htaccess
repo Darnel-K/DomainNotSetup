@@ -3,5 +3,5 @@ RewriteBase /
 RewriteCond %{REQUEST_URI} [^\/].* [NC]
 RewriteCond %{REQUEST_URI} !\.(sass|css|map)$ [NC]
 # Let's Encrypt
-RewriteCond %{REMOTE_ADDR} !^66\.133\.109\.36
+RewriteCond %{REQUEST_URI} !\.well-known.*
 RewriteRule ^.+$ / [L,R=301]
